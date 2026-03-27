@@ -18,15 +18,6 @@ AI-powered descriptions and keywords for videos and images. Generate professiona
 
 Most image and video formats, plus raw camera formats (CR2, NEF, ARW, DNG) and SVG.
 
-## Pricing
-
-- **$39 single-user license** (one-time purchase, updates included, no subscription)
-- **Free with Ollama** (fully offline and private)
-- **<$0.001 per description** with Gemini or OpenAI
-- 100 free descriptions included in trial
-
-Use your own API keys with direct connections to providers. No middlemen or markups.
-
 ## Installation
 
 Download the installer from [viscriptix.com](https://viscriptix.com).
