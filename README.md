@@ -1,22 +1,44 @@
 # Viscriptix AI
 
-Stock footage metadata generation powered by AI.
-
-## Download
-
-Download the latest installer from [Releases](https://github.com/Lithographic/Viscriptix/releases/latest).
+AI-powered descriptions and keywords for videos and images. Generate professional metadata in seconds using Gemini, OpenAI, or fully offline with Ollama.
 
 ## Features
 
-- AI-powered title, keyword, and category generation for video files
-- Computer vision-based camera movement detection (optical flow)
-- Drone footage analysis with SRT telemetry parsing
-- Training label system for structured metadata
-- Image similarity matching for existing descriptions
-- 21 Adobe stock category classifications
-- Supports OpenAI GPT-4o-mini and Google Gemini
+- **Multiple AI Models** - Compare results across Gemini, OpenAI, and local Ollama models to pick the best fit for your workflow and budget
+- **Airplane Mode** - Works fully offline with local Ollama models, Whisper subtitles, and built-in geolocation database. No internet required; media never leaves your machine
+- **DJI Drone Workflow** - Extract telemetry segments and GPS data from full-length source videos, with optical flow analysis for automatic camera movement, location, time of day, and landmark descriptions
+- **Free Subtitle Generation** - Transcribe and generate subtitles in 99 languages with automatic English translation via local Whisper (Large-v3 Turbo)
+- **Reverse Lookups** - Match color-corrected/cropped videos and images to source media, extracting GPS location, AI prompts, and camera settings
+- **AI Lookups** - Automatically incorporate original AI prompts when describing AI-generated images and video
+- **Agency-Ready Export** - CSV files formatted for Adobe Stock, Getty/iStock, Shutterstock, Pond5, Storyblocks, and Envato
+- **Manual Classification** - Bind common classifications to hotkeys for quick batch processing
+- **Stock Category Detection** - Automatic classification across 21 Adobe stock categories
 
-## System Requirements
+## Supported Formats
 
-- Windows 10/11
-- Internet connection (for AI API calls)
+Most image and video formats, plus raw camera formats (CR2, NEF, ARW, DNG) and SVG.
+
+## Pricing
+
+- **$39 single-user license** (one-time purchase, updates included, no subscription)
+- **Free with Ollama** (fully offline and private)
+- **<$0.001 per description** with Gemini or OpenAI
+- 100 free descriptions included in trial
+
+Use your own API keys with direct connections to providers. No middlemen or markups.
+
+## Installation
+
+Download the installer from [viscriptix.com](https://viscriptix.com).
+
+## Privacy
+
+- API keys stored only in environment variables, held in memory during sessions only
+- Media is sent directly to AI providers from your device; Viscriptix does not intercept, store, or relay your data
+- Fully offline operation available with Ollama
+
+## License
+
+Proprietary - (c) 2025-2026 A Software Company. All rights reserved.
+
+See [Terms of Service](https://viscriptix.com/terms) and [Privacy Policy](https://viscriptix.com/privacy).
