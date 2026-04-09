@@ -1,0 +1,47 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in Viscriptix
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what happened and what you expected to happen.
+      placeholder: "When I click Describe, the app..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open Viscriptix
+        2. Load a video file
+        3. Click '...'
+        4. See error
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Viscriptix version
+      description: "Found in the title bar or Help menu (e.g. v1.0.1)"
+      placeholder: "v1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output (optional)
+      description: "Paste any relevant log output from %LOCALAPPDATA%\Viscriptix\Logs\viscriptix.log"
+      render: text
+    validations:
+      required: false
