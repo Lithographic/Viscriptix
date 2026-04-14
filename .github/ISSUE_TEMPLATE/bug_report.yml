@@ -26,8 +26,8 @@ body:
     id: version
     attributes:
       label: Viscriptix version
-      description: "Found in the title bar or Help menu (e.g. v1.0.1)"
-      placeholder: "v1.0.1"
+      description: "Found in the title bar or Help menu (e.g. v1.1.1)"
+      placeholder: "v1.1.1"
     validations:
       required: true
   - type: input
