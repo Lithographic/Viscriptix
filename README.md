@@ -4,6 +4,12 @@
 
 AI-powered descriptions and keywords for videos and images. Generate professional metadata in seconds using Gemini, OpenAI, or fully offline with Ollama.
 
+## Download
+
+**[⬇ Download ViscriptixSetup_v1.1.1.exe](https://github.com/Lithographic/Viscriptix/releases/latest/download/ViscriptixSetup_v1.1.1.exe)** (1.9 GB, Windows)
+
+Also available at [viscriptix.com](https://viscriptix.com) or on the [Releases](https://github.com/Lithographic/Viscriptix/releases) page.
+
 ## Features
 
 - **Multiple AI Models** - Compare results across Gemini, OpenAI, and local Ollama models to pick the best fit for your workflow and budget
@@ -19,10 +25,6 @@ AI-powered descriptions and keywords for videos and images. Generate professiona
 ## Supported Formats
 
 Most image and video formats, plus raw camera formats (CR2, NEF, ARW, DNG) and SVG.
-
-## Installation
-
-Download the latest installer from the [Releases](https://github.com/Lithographic/Viscriptix/releases) page, or from [viscriptix.com](https://viscriptix.com).
 
 ## Privacy
 
