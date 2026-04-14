@@ -1,6 +1,6 @@
 # Viscriptix
 
-> **v1.1.1 — Latest Release**
+> **v1.1.1 — First Public Release**
 
 AI-powered descriptions and keywords for videos and images. Generate professional metadata in seconds using Gemini, OpenAI, or fully offline with Ollama.
 
